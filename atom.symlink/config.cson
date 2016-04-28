@@ -6,10 +6,6 @@
       "exception-reporting"
     ]
     hideGitIgnoredFiles: true
-    themes: [
-      "native-ui"
-      "one-dark-syntax"
-    ]
     projectHome: "~/dev/"
   editor:
     fontFamily: "Hack"

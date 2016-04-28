@@ -17,6 +17,4 @@ apm install \
   linter-jshint \
   linter-ruby \
   native-ui \
-  one-dark-syntax \
   sort-lines
-apm remove metrics exception-reporting
