@@ -6,7 +6,7 @@ export ZSH="$HOME/.dotfiles"
 export PROJECTS="$HOME/dev"
 
 # your default editor
-export EDITOR='atom'
+export EDITOR='vim'
 
 # all of our zsh files
 typeset -U config_files
