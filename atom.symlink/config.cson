@@ -6,11 +6,11 @@
       "exception-reporting"
     ]
     hideGitIgnoredFiles: true
-    projectHome: "~/Code/"
     themes: [
       "native-ui"
       "one-dark-syntax"
     ]
+    projectHome: "~/dev/"
   editor:
     fontFamily: "Hack"
     fontSize: 15
@@ -22,7 +22,7 @@
     coloured: false
     tabPaneIcon: false
   "go-plus":
-    goPath: "~/Code/Go"
+    goPath: "~/dev/go"
   "go-rename": {}
   gofmt:
     formatTool: "goreturns"
