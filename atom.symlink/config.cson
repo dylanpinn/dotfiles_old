@@ -23,6 +23,9 @@
   gofmt:
     formatTool: "gofmt"
   linter: {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "tree-view":
     hideVcsIgnoredFiles: true
   "unity-ui":

@@ -8,13 +8,10 @@ apm install \
   editorconfig \
   file-icons \
   go-plus \
-  go-rename \
   language-diff \
   language-docker \
-  language-puppet \
-  language-terraform \
   linter \
-  linter-jshint \
   linter-ruby \
   native-ui \
-  sort-lines
+  sort-lines \
+  package-sync
