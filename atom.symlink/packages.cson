@@ -14,11 +14,13 @@ packages: [
   "gorename"
   "language-diff"
   "language-docker"
+  "language-viml"
   "linter"
   "linter-ruby"
   "native-ui"
   "navigator-godef"
   "package-sync"
   "sort-lines"
+  "ssh-config"
   "tester-go"
 ]
