@@ -2,15 +2,12 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'homebrew/versions'
+tap 'homebrew/dupes'
+tap 'homebrew/homebrew-php'
 
 brew 'awscli'
-brew 'composer'
 brew 'direnv'
 brew 'dlite'
-brew 'docker
-brew 'docker-compose'
-brew 'docker-machine'
-brew 'docker-swarm'
 brew 'ffmpeg'
 brew 'fzf'
 brew 'git'
