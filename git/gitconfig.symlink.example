@@ -39,22 +39,8 @@
     whitespace = nowarn
 [help]
     autocorrect = 1
-[merge]
-    tool = diffmerge
-[mergetool "diffmerge"]
-    cmd           = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
-    trustExitCode = true
-    keepBackup    = false
-[diff]
-    tool = diffmerge
-[difftool "diffmerge"]
-    cmd = diffmerge $LOCAL $REMOTE
-[difftool]
-    prompt = false
 [grep]
     extendRegexp = true
     lineNumber   = true
 [push]
     default = simple
-[commit]
-  template = ~/.dotfiles/git/template.txt
