@@ -41,8 +41,13 @@ done
 
 unset config_files updated_at
 
+# TODO: Move out into seperate config
 eval "$(direnv hook zsh)"
+source "`brew --prefix`/etc/grc.bashrc"
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 [[ -a ~/.localrc ]] && source ~/.localrc
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/sbin:$PATH"
