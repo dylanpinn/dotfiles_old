@@ -32,6 +32,14 @@
   gofmt:
     formatTool: "gofmt"
   linter: {}
+  "linter-jscs":
+    fixOnSave: true
+    onlyConfig: true
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+    lintInlineJavaScript: true
+  "linter-sass-lint":
+    noConfigDisable: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true
