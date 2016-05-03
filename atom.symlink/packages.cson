@@ -23,7 +23,6 @@ packages: [
   "linter-eslint"
   "linter-shellcheck"
   "minimap"
-  "native-ui"
   "navigator-godef"
   "package-sync"
   "react"
