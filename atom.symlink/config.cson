@@ -1,12 +1,18 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "99afad7b-7444-488b-a2b6-f6aa0f2f05e0"
-    css_convert_quotes: "single"
-    css_newline_between_rules: true
-    css_no_lead_zero: true
-    css_preserve_newlines: true
-    html_end_with_newline: true
-    js_end_with_newline: true
+    cs:
+      beautify_on_save: true
+    css:
+      convert_quotes: "single"
+      newline_between_rules: true
+      no_lead_zero: true
+      preserve_newlines: true
+    general:
+      _analyticsUserId: "99afad7b-7444-488b-a2b6-f6aa0f2f05e0"
+    html:
+      end_with_newline: true
+    js:
+      end_with_newline: true
   core:
     autoHideMenuBar: true
     disabledPackages: [
