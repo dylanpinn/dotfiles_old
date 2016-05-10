@@ -7,7 +7,6 @@ tap 'homebrew/homebrew-php'
 
 brew 'awscli'
 brew 'direnv'
-brew 'dlite'
 brew 'ffmpeg'
 brew 'fzf'
 brew 'git'
