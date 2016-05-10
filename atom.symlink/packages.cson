@@ -18,6 +18,7 @@ packages: [
   "language-diff"
   "language-docker"
   "language-gitignore"
+  "language-nginx"
   "language-viml"
   "linter"
   "linter-csslint"
