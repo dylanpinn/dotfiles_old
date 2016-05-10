@@ -9,3 +9,4 @@ caarlos0/zsh-open-github-pr
 caarlos0/zsh-git-fetch-merge
 rimraf/
 djui/alias-tips
+petervanderdoes/git-flow-completion
