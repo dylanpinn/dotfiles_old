@@ -41,8 +41,6 @@ done
 
 unset config_files updated_at
 
-# TODO: Move out into seperate config
-eval "$(direnv hook zsh)"
 source "`brew --prefix`/etc/grc.bashrc"
 
 # use .localrc for SUPER SECRET CRAP that you don't
