@@ -31,6 +31,7 @@ packages: [
   "minimap"
   "navigator-godef"
   "package-sync"
+  "pigments"
   "react"
   "sort-lines"
   "ssh-config"
