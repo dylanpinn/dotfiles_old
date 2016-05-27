@@ -1,6 +1,7 @@
 packages: [
   "angularjs"
   "atom-beautify"
+  "atom-ternjs"
   "atom-wrap-in-tag"
   "autocomplete-go"
   "builder-go"
