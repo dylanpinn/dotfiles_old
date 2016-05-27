@@ -33,6 +33,7 @@ packages: [
   "navigator-godef"
   "package-sync"
   "pigments"
+  "project-manager"
   "react"
   "sort-lines"
   "ssh-config"
