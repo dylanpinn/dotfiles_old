@@ -13,6 +13,8 @@
       end_with_newline: true
     js:
       end_with_newline: true
+    ruby:
+      indent_size: 2
   core:
     autoHideMenuBar: true
     disabledPackages: [

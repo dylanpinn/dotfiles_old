@@ -26,6 +26,7 @@ packages: [
   "linter-eslint"
   "linter-jscs"
   "linter-jshint"
+  "linter-rubocop"
   "linter-ruby"
   "linter-sass-lint"
   "linter-shellcheck"
