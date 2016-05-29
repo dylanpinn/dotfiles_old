@@ -16,7 +16,15 @@
       indent_size: 2
       space_after_anon_function: true
     ruby:
+    json:
+      end_with_newline: true
       indent_size: 2
+    scss:
+      convert_quotes: "single"
+      indent_size: 2
+      newline_between_rules: true
+      no_lead_zero: true
+      preserve_newlines: true
   core:
     autoHideMenuBar: true
     disabledPackages: [
