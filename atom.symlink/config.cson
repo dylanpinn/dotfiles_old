@@ -47,6 +47,7 @@
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
     lintInlineJavaScript: true
+  "linter-rubocop": {}
   "linter-sass-lint":
     noConfigDisable: true
   "package-sync":
