@@ -1,6 +1,7 @@
 packages: [
   "angularjs"
   "atom-beautify"
+  "atom-ternjs"
   "atom-wrap-in-tag"
   "autocomplete-go"
   "builder-go"
@@ -33,6 +34,8 @@ packages: [
   "minimap"
   "navigator-godef"
   "package-sync"
+  "pigments"
+  "project-manager"
   "react"
   "sort-lines"
   "ssh-config"

@@ -41,11 +41,12 @@ done
 
 unset config_files updated_at
 
-source "`brew --prefix`/etc/grc.bashrc"
+# TODO: Renable GRC
+# source "`brew --prefix`/etc/grc.bashrc"
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 [[ -a ~/.localrc ]] && source ~/.localrc
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export PATH="/usr/local/sbin:$PATH"
+# TODO: Renable FZF
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
