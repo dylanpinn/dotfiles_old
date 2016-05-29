@@ -38,6 +38,9 @@
   gofmt:
     formatTool: "gofmt"
   linter: {}
+  "linter-eslint":
+    fixOnSave: true
+    lintHtmlFiles: true
   "linter-jscs":
     fixOnSave: true
     onlyConfig: true
