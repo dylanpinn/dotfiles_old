@@ -37,6 +37,8 @@ packages: [
   "pigments"
   "project-manager"
   "react"
+  "ruby-block"
+  "ruby-test"
   "sort-lines"
   "ssh-config"
   "tester-go"
