@@ -7,6 +7,9 @@
       newline_between_rules: true
       no_lead_zero: true
       preserve_newlines: true
+    erb:
+      default_beautifier: "HTML Beautifier"
+      indent_size: 2
     general:
       _analyticsUserId: "99afad7b-7444-488b-a2b6-f6aa0f2f05e0"
     html:
@@ -42,6 +45,7 @@
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+  emmet: {}
   "file-icons":
     coloured: false
     tabPaneIcon: false
