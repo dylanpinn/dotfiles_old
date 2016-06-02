@@ -34,8 +34,8 @@
     disabledPackages: [
       "metrics"
       "exception-reporting"
-      "linter-phpmd"
       "linter-phpcs"
+      "linter-phpmd"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
@@ -66,9 +66,8 @@
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
     lintInlineJavaScript: true
-  "linter-phpcs":
-    disableWhenNoConfigFile: true
-  "linter-phpmd": {}
+  "linter-phpmd":
+    projectRules: true
   "linter-rubocop": {}
   "linter-sass-lint":
     noConfigDisable: true
