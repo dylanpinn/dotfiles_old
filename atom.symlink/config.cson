@@ -64,6 +64,8 @@
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
     lintInlineJavaScript: true
+  "linter-phpmd":
+    projectRules: true
   "linter-rubocop": {}
   "linter-sass-lint":
     noConfigDisable: true
