@@ -47,4 +47,5 @@ packages: [
   "tester-go"
   "todo-show"
   "toggle-quotes"
+  "wakatime"
 ]
