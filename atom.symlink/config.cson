@@ -55,7 +55,7 @@
     goPath: "~/dev/go"
   "go-rename": {}
   gofmt:
-    formatTool: "gofmt"
+    formatTool: "goreturns"
   linter: {}
   "linter-eslint":
     fixOnSave: true
@@ -80,5 +80,7 @@
     hideVcsIgnoredFiles: true
   "unity-ui":
     showIcons: true
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
   welcome:
     showOnStartup: false
