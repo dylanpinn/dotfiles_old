@@ -6,3 +6,4 @@ __reload_dotfiles() {
   cd . || return 1
 }
 alias reload!='__reload_dotfiles'
+alias fix_www_data='sudo chmod -R g+rwX .'
