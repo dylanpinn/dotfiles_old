@@ -19,6 +19,7 @@ packages: [
   "language-diff"
   "language-docker"
   "language-gitignore"
+  "language-groovy"
   "language-nginx"
   "language-viml"
   "linter"
