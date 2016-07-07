@@ -1,5 +1,3 @@
-[difftool "diffmerge"]
-	cmd = diffmerge $LOCAL $REMOTE
 [alias]
 	co = checkout
 	count = shortlog -sn
@@ -30,15 +28,9 @@
 [help]
 	autocorrect = 1
 [merge]
-	tool = diffmerge
-[mergetool "diffmerge"]
-	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
-	trustExitCode = true
-	keepBackup = false
+  tool = meld
 [diff]
 	tool = diffmerge
-[difftool]
-	prompt = false
 [grep]
 	extendRegexp = true
 	lineNumber = true
@@ -46,5 +38,3 @@
 	default = simple
 [submodule]
 	fetchJobs = 4
-[commit]
-	template = ~/.dotfiles/git/template.txt
