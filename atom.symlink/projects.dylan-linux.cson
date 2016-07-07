@@ -1,0 +1,5 @@
+coffeehive:
+  title: "Coffee Hive"
+  paths: [
+    "/home/dylan/dev/magento/coffeehivedos"
+  ]

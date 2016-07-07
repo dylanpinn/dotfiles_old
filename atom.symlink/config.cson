@@ -21,6 +21,7 @@
     json:
       end_with_newline: true
       indent_size: 2
+    php: {}
     ruby:
       indent_size: 2
     scss:
@@ -36,6 +37,7 @@
       "exception-reporting"
       "linter-phpcs"
       "linter-phpmd"
+      "linter-htmlhint"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
@@ -74,6 +76,8 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "project-manager":
+    environmentSpecificProjects: true
   "ruby-test":
     testFramework: "minitest"
   "tree-view":
@@ -83,6 +87,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1466733259
+    lastInit: 1467764599
   welcome:
     showOnStartup: false

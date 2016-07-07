@@ -1,0 +1,6 @@
+[user]
+	name = Dylan Pinn
+	email = dylan@arcadiandigital.com.au
+	helper = cache
+[include]
+	path = /home/dylan/.gitconfig.local
