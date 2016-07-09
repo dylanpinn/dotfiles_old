@@ -19,6 +19,12 @@ if test "$(which code)"; then
     haaaad.ansible
     lukehoban.Go
     rebornix.Ruby
+    CraigMaslowski.erb
+    vscode.csharp
+    dbaeumer.vscode-eslint
+    dracula-theme.theme-dracula
+    hoovercj.ruby-linter
+    misogi.ruby-rubocop
   "
   for module in $modules; do
     code --install-extension "$module" || true
