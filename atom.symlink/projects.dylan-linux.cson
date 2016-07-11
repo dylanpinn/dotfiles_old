@@ -8,3 +8,8 @@ logichealth:
   paths: [
     "/home/dylan/dev/rails/logic-health"
   ]
+ablethorpe:
+  title: "Ablethorpe"
+  paths: [
+    "/home/dylan/dev/wordpress/ablethorpe2015"
+  ]

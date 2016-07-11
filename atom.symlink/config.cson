@@ -35,12 +35,16 @@
     disabledPackages: [
       "metrics"
       "exception-reporting"
-      "linter-phpcs"
       "linter-phpmd"
       "linter-htmlhint"
+      "linter-phpcs"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
+    themes: [
+      "one-dark-ui"
+      "dracula-theme"
+    ]
   editor:
     fontFamily: "Hack"
     fontSize: 15
