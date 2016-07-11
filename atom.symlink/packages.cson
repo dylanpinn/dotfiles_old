@@ -6,6 +6,7 @@ packages: [
   "autocomplete-go"
   "builder-go"
   "color-picker"
+  "dash"
   "docblockr"
   "editorconfig"
   "emmet"
