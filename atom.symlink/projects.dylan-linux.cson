@@ -3,3 +3,8 @@ coffeehive:
   paths: [
     "/home/dylan/dev/magento/coffeehivedos"
   ]
+logichealth:
+  title: "Logic Health"
+  paths: [
+    "/home/dylan/dev/rails/logic-health"
+  ]
