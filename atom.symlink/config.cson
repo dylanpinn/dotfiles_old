@@ -35,12 +35,16 @@
     disabledPackages: [
       "metrics"
       "exception-reporting"
-      "linter-phpcs"
       "linter-phpmd"
       "linter-htmlhint"
+      "linter-phpcs"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
+    themes: [
+      "one-dark-ui"
+      "dracula-theme"
+    ]
   editor:
     fontFamily: "Hack"
     fontSize: 15
@@ -73,6 +77,8 @@
   "linter-rubocop": {}
   "linter-sass-lint":
     noConfigDisable: true
+  "linter-scss-lint":
+    disableWhenNoConfigFileInPath: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -80,6 +86,13 @@
     environmentSpecificProjects: true
   "ruby-test":
     testFramework: "minitest"
+  "todo-show":
+    ignoreThesePaths: [
+      "**/node_modules/"
+      "**/vendor/"
+      "**/bower_components/"
+      "**/public/"
+    ]
   "tree-view":
     hideVcsIgnoredFiles: true
   "unity-ui":
@@ -87,6 +100,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1467764599
+    lastInit: 1467936784
   welcome:
     showOnStartup: false

@@ -4,3 +4,5 @@
 	helper = cache
 [include]
 	path = /home/dylan/.gitconfig.local
+[dotfiles]
+	lastupdate = 201607081800
