@@ -4,3 +4,6 @@
 [submodule "vim/vimfiles"]
   path = vim/vimfiles
   url = https://github.com/caarlos0/vimfiles.git
+[submodule "wakatime"]
+	path = wakatime
+	url = git@bitbucket.org:dylanpinn/dotfiles-wakatime.git
