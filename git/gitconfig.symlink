@@ -3,8 +3,6 @@
 	email = dylan@arcadiandigital.com.au
 	helper = cache
 [include]
-	path = /Users/dylan/.gitconfig.local
+	path = ~/.gitconfig.local
 [dotfiles]
-	lastupdate = 201607122000
-[core]
-	excludesfile = /Users/dylan/.gitignore
+	lastupdate = 201607131008
