@@ -1,8 +1,0 @@
-[user]
-	name = Dylan Pinn
-	email = dylan@arcadiandigital.com.au
-	helper = cache
-[include]
-	path = ~/.gitconfig.local
-[dotfiles]
-	lastupdate = 201607131008
