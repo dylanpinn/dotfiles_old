@@ -1,6 +1,9 @@
 language: ruby
 rvm:
   - 2.0.0
+  - 2.1.0
+  - 2.2.0
+  - 2.3.1
 os:
   - linux
   - osx
@@ -9,5 +12,5 @@ install:
   - if [ "$(uname -s)" != "Darwin" ]; then sudo apt-get update && sudo apt-get install -y zsh; fi
 script:
   - ./script/test
-notifications:
-  email: false
+git:
+  submodules: false

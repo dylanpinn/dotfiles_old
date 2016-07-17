@@ -3,3 +3,13 @@ thegrantshub:
   paths: [
     "/Users/dylan/dev/freelance/bowerby/thegrantshub"
   ]
+logichealth:
+  title: "Logic Health"
+  paths: [
+    "/Users/dylan/dev/arcadian/rails/logic-health"
+  ]
+"exercism:ruby":
+  title: "Exercism: Ruby"
+  paths: [
+    "/Users/dylan/dev/personal/exercism/ruby"
+  ]
