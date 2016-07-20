@@ -38,13 +38,10 @@
       "linter-phpmd"
       "linter-htmlhint"
       "linter-phpcs"
+      "linter-codeclimate"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
-    themes: [
-      "one-dark-ui"
-      "dracula-theme"
-    ]
   editor:
     fontFamily: "Hack"
     fontSize: 15
@@ -63,6 +60,8 @@
   gofmt:
     formatTool: "goreturns"
   linter: {}
+  "linter-codeclimate":
+    init: false
   "linter-eslint":
     fixOnSave: true
     lintHtmlFiles: true
@@ -100,6 +99,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1468677834
+    lastInit: 1468972822
   welcome:
     showOnStartup: false
