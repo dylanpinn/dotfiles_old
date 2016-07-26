@@ -20,7 +20,7 @@ if test "$(which code)"; then
     lukehoban.Go
     rebornix.Ruby
     CraigMaslowski.erb
-    vscode.csharp
+    ms-vscode.csharp
     dbaeumer.vscode-eslint
     hoovercj.ruby-linter
     misogi.ruby-rubocop
