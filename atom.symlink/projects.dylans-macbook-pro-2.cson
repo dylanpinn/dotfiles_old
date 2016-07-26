@@ -13,3 +13,8 @@ logichealth:
   paths: [
     "/Users/dylan/dev/personal/exercism/ruby"
   ]
+uninotes:
+  title: "Uni Notes"
+  paths: [
+    "/Users/dylan/dev/uni/uni.dylanpinn.com"
+  ]
