@@ -5,5 +5,10 @@
     "editor.renderWhitespace": true,
     "editor.renderControlCharacters": true,
     "editor.renderIndentGuides": true,
-    "editor.trimAutoWhitespace": true
+    "editor.trimAutoWhitespace": true,
+    "editor.wrappingColumn": 80,
+    "editor.wrappingIndent": "indent",
+    "eslint.enable": false,
+    "jshint.enable": false,
+    "jscs.disableIfNoConfig": true
 }

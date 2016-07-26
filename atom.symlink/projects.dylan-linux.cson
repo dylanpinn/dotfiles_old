@@ -13,3 +13,8 @@ ablethorpe:
   paths: [
     "/home/dylan/dev/wordpress/ablethorpe2015"
   ]
+pixel:
+  title: "Pixel"
+  paths: [
+    "/home/dylan/dev/node/Pixel"
+  ]

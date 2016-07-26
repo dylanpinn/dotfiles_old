@@ -22,9 +22,10 @@ if test "$(which code)"; then
     CraigMaslowski.erb
     vscode.csharp
     dbaeumer.vscode-eslint
-    dracula-theme.theme-dracula
     hoovercj.ruby-linter
     misogi.ruby-rubocop
+    joelday.docthis
+    HookyQR.JSDocTagComplete
   "
   for module in $modules; do
     code --install-extension "$module" || true

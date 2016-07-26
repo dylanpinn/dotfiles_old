@@ -15,4 +15,9 @@ if [ "$(uname -s)" = "Darwin" ]; then
   export PATH=$ANDROID_HOME/tools:$PATH
   export PATH=$ANDROID_HOME/platform-tools:$PATH
   export PATH=$ANDROID_HOME/build-tools/$(ls $ANDROID_HOME/build-tools | sort | tail -1):$PATH
+else
+  export ANDROID_HOME=$HOME/Android/Sdk
+  export ANDROID_NDK_HOME=$HOME/Android/Sdk/Ndk
+
+  export PATH=$PATH:$ANDROID_NDK_HOME
 fi
