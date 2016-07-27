@@ -56,12 +56,6 @@ setup_gitconfig () {
     # otherwise this gitconfig was already made by the dotfiles
     info "already managed by dotfiles"
   fi
-  # set up user.helper so git don't ask for password every time
-  if [ "$(uname -s)" = "Darwin" ]; then
-    git config --global user.helper osxkeychain
-  else
-    git config --global user.helper cache
-  fi
   # include the gitconfig.local file
   git config --global include.path ~/.gitconfig.local
   # finally make git knows this is a managed config already, preventing later
