@@ -10,5 +10,13 @@
     "editor.wrappingIndent": "indent",
     "eslint.enable": false,
     "jshint.enable": false,
-    "jscs.disableIfNoConfig": true
+    "jscs.disableIfNoConfig": true,
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.idea": true,
+      "**/.sass-cache": true
+    },
+    "files.associations": {
+      ".dockerignore": "gitignore"
+    }
 }
