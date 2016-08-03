@@ -85,6 +85,8 @@
     environmentSpecificProjects: true
   "ruby-test":
     testFramework: "minitest"
+  stylefmt:
+    formatOnSave: true
   "todo-show":
     ignoreThesePaths: [
       "**/node_modules/"

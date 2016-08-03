@@ -18,5 +18,6 @@
     },
     "files.associations": {
       ".dockerignore": "gitignore"
-    }
+    },
+    "vsicons.useFileAssociations": true
 }
