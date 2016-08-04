@@ -41,15 +41,12 @@ done
 
 unset config_files updated_at
 
-# TODO: Renable GRC
-# source "`brew --prefix`/etc/grc.bashrc"
-
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 [[ -a ~/.localrc ]] && source ~/.localrc
 
-# TODO: Renable FZF
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# TODO: Move out of .zshrc
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # OPAM configuration
 . /home/dylan/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
