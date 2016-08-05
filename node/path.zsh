@@ -1,6 +1,6 @@
 #!/bin/zsh
 if [ "$(uname -s)" = "Darwin" ]; then
-  export PATH="$PATH:/usr/local/share/npm/bin:$HOME/.npm/bin"
+  export PATH="$PATH:$HOME/.npm/bin"
 
   export NVM_DIR="$HOME/.nvm"
     . "$(brew --prefix nvm)/nvm.sh"
