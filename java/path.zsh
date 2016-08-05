@@ -14,6 +14,7 @@ if [ "$(uname -s)" = "Darwin" ]; then
   export PATH=$GRADLE_HOME/bin:$PATH
   export PATH=$ANDROID_HOME/tools:$PATH
   export PATH=$ANDROID_HOME/platform-tools:$PATH
+  # shellcheck disable=SC2012
   BUILD_TOOLS=$(ls $ANDROID_HOME/build-tools | sort | tail -1)
   export PATH=$ANDROID_HOME/build-tools/$BUILD_TOOLS:$PATH
 else
