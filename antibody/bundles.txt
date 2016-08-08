@@ -1,0 +1,13 @@
+# note this is alphabetically sorted
+caarlos0/ports
+caarlos0/zsh-add-upstream
+caarlos0/zsh-git-fetch-merge
+caarlos0/zsh-git-sync
+caarlos0/zsh-mkc
+caarlos0/zsh-open-github-pr
+djui/alias-tips
+mafredri/zsh-async
+petervanderdoes/git-flow-completion
+Tarrasch/zsh-bd
+wbinglee/zsh-wakatime
+zsh-users/zsh-completions
