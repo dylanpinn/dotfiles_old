@@ -1,23 +1,31 @@
 {
-    "editor.fontFamily": "Hack",
-    "editor.fontSize": 15,
-    "editor.rulers": [80, 120],
-    "editor.renderWhitespace": true,
-    "editor.renderControlCharacters": true,
-    "editor.renderIndentGuides": true,
-    "editor.trimAutoWhitespace": true,
-    "editor.wrappingColumn": 80,
-    "editor.wrappingIndent": "indent",
-    "eslint.enable": false,
-    "jshint.enable": false,
-    "jscs.disableIfNoConfig": true,
-    "files.exclude": {
-      "**/node_modules": true,
-      "**/.idea": true,
-      "**/.sass-cache": true
-    },
-    "files.associations": {
-      ".dockerignore": "gitignore"
-    },
-    "vsicons.useFileAssociations": true
+  "editor.fontFamily": "Hack",
+  "editor.fontSize": 15,
+  "editor.renderControlCharacters": true,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.tabCompletion": true,
+  "editor.wrappingColumn": 80,
+  "editor.wrappingIndent": "indent",
+  "explorer.openEditors.visible": 0,
+  "eslint.enable": false,
+  "files.associations": {
+    ".dockerignore": "gitignore"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.idea": true,
+    "**/.sass-cache": true
+  },
+  "jscs.disableIfNoConfig": true,
+  "jshint.enable": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "vsicons.useFileAssociations": true,
+  "window.reopenFolders": "none",
 }
