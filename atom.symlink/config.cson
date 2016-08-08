@@ -39,6 +39,7 @@
       "linter-htmlhint"
       "linter-phpcs"
       "linter-codeclimate"
+      "react"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
@@ -59,6 +60,7 @@
   "go-rename": {}
   gofmt:
     formatTool: "goreturns"
+  "language-babel": {}
   linter: {}
   "linter-codeclimate":
     init: false
