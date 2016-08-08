@@ -27,5 +27,5 @@
   "jshint.enable": false,
   "terminal.external.osxExec": "iTerm.app",
   "vsicons.useFileAssociations": true,
-  "window.reopenFolders": "none",
+  "window.reopenFolders": "none"
 }
