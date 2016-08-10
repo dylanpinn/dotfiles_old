@@ -1,10 +1,7 @@
 #!/bin/sh
+export PATH="$PATH:$HOME/.pyenv/bin"
 
 __pyenv_started=0
-
-if [ "$(uname -s)" != "Darwin" ]; then
-  export PATH="$HOME/.pyenv/bin:$PATH"
-fi
 
 __pyenv_init() {
   test $__pyenv_started = 0 && {
@@ -27,14 +24,3 @@ pip() {
   __pyenv_init
   command pip "$@"
 }
-
-#if [ "$(uname -s)" = "Darwin" ]; then
-#  pyenv() {
-#    eval "$(command pyenv init -)"
-#    pyenv "$@"
-#  }
-#else
-#  export PATH="$HOME/.pyenv/bin:$PATH"
-#  eval "$(pyenv init -)"
-#  eval "$(pyenv virtualenv-init -)"
-#fi
