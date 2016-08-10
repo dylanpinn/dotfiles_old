@@ -2,6 +2,10 @@
 
 __pyenv_started=0
 
+if [ "$(uname -s)" != "Darwin" ]; then
+  export PATH="$HOME/.pyenv/bin:$PATH"
+fi
+
 __pyenv_init() {
   test $__pyenv_started = 0 && {
     eval "$(command pyenv init -)"
