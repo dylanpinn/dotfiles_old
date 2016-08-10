@@ -10,22 +10,41 @@ if test "$(which code)"; then
 
   modules="
     Borke.Puppet
+    CraigMaslowski.erb
     DotJoshJohnson.xml
     EditorConfig.EditorConfig
+    HookyQR.JSDocTagComplete
+    HookyQR.beautify
+    HvyIndustries.crane
+    Kasik96.format-indent
     PeterJausovec.vscode-docker
     WakaTime.vscode-wakatime
+    codezombiech.gitignore
+    dbaeumer.jshint
+    dbaeumer.vscode-eslint
+    deerawan.vscode-dash
+    donjayamanne.githistory
     donjayamanne.python
+    eg2.tslint
+    felixfbecker.php-debug
     georgewfraser.vscode-javac
     haaaad.ansible
-    lukehoban.Go
-    rebornix.Ruby
-    CraigMaslowski.erb
-    ms-vscode.csharp
-    dbaeumer.vscode-eslint
     hoovercj.ruby-linter
-    misogi.ruby-rubocop
+    ikappas.phpcs
     joelday.docthis
-    HookyQR.JSDocTagComplete
+    linyang95.phpmd
+    lukehoban.Go
+    minhthai.vscode-todo-parser
+    misogi.ruby-rubocop
+    ms-vscode.cpptools
+    ms-vscode.csharp
+    ms-vscode.jscs
+    msjsdiag.debugger-for-chrome
+    rebornix.Ruby
+    robertohuertasm.vscode-icons
+    seanmcbreen.Spell
+    vsmobile.vscode-react-native
+    zhutian.swig
   "
   for module in $modules; do
     code --install-extension "$module" || true
