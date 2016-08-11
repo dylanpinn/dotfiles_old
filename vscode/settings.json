@@ -23,7 +23,7 @@
     "**/.idea": true,
     "**/.sass-cache": true
   },
-  "jscs.disableIfNoConfig": true,
+  "jscs.enable": false,
   "jshint.enable": false,
   "terminal.external.osxExec": "iTerm.app",
   "vsicons.useFileAssociations": true,
