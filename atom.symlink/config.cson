@@ -56,6 +56,9 @@
   "file-icons":
     coloured: false
     tabPaneIcon: false
+  "go-debug":
+    limitCommandsToGo: true
+    panelInitialVisible: false
   "go-plus":
     goPath: "~/dev/go"
   "go-rename": {}
@@ -104,6 +107,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1470909824
+    lastInit: 1471500361
   welcome:
     showOnStartup: false
