@@ -107,6 +107,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1471500361
+    lastInit: 1471931620
   welcome:
     showOnStartup: false

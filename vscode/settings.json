@@ -16,7 +16,8 @@
   "explorer.openEditors.visible": 0,
   "eslint.enable": false,
   "files.associations": {
-    ".dockerignore": "gitignore"
+    ".dockerignore": "gitignore",
+    ".stylelintrc": "json"
   },
   "files.exclude": {
     "**/node_modules": true,
