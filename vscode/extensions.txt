@@ -33,6 +33,7 @@ mrmlnc.vscode-stylefmt
 ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.jscs
+ms-vscode.mono-debug
 msjsdiag.debugger-for-chrome
 rebornix.Ruby
 robertohuertasm.vscode-icons
