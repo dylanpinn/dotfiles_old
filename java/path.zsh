@@ -12,14 +12,15 @@ if [ "$(uname -s)" = "Darwin" ]; then
   export PATH=$ANT_HOME/bin:$PATH
   export PATH=$MAVEN_HOME/bin:$PATH
   export PATH=$GRADLE_HOME/bin:$PATH
-  export PATH=$ANDROID_HOME/tools:$PATH
-  export PATH=$ANDROID_HOME/platform-tools:$PATH
-  # shellcheck disable=SC2012
-  BUILD_TOOLS=$(ls $ANDROID_HOME/build-tools | sort | tail -1)
-  export PATH=$ANDROID_HOME/build-tools/$BUILD_TOOLS:$PATH
 else
   export ANDROID_HOME=$HOME/Android/Sdk
   export ANDROID_NDK_HOME=$HOME/Android/Sdk/Ndk
 
   export PATH=$PATH:$ANDROID_NDK_HOME
 fi
+
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+# shellcheck disable=SC2012
+BUILD_TOOLS=$(ls $ANDROID_HOME/build-tools | sort | tail -1)
+export PATH=$ANDROID_HOME/build-tools/$BUILD_TOOLS:$PATH
