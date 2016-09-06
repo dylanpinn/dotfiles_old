@@ -17,7 +17,8 @@
   "eslint.enable": false,
   "files.associations": {
     ".dockerignore": "gitignore",
-    ".stylelintrc": "json"
+    ".stylelintrc": "json",
+    "*.manifest": "json"
   },
   "files.exclude": {
     "**/node_modules": true,

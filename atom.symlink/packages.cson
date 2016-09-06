@@ -22,6 +22,7 @@ packages: [
   "gometalinter-linter"
   "gorename"
   "language-babel"
+  "language-cshtml"
   "language-diff"
   "language-docker"
   "language-gitignore"
