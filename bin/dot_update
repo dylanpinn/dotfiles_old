@@ -19,8 +19,10 @@ echo "› git update"
 git pull --rebase --stat updates "$(git rev-parse --abbrev-ref HEAD)"
 
 # Update submodules
-echo "› submodules update"
-git submodule update --init --recursive --remote --merge --quiet
+if [ -z "$TRAVIS_JOB_ID" ]; then
+  echo "› submodules update"
+  git submodule update --init --recursive --remote --merge --quiet
+fi
 
 # Run all installs
 echo "› $ZSH/script/install"
