@@ -1,4 +1,8 @@
 #!/bin/zsh
+
+# NVM Completion
+[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
+
 ###-begin-npm-completion-###
 #
 # npm command completion script
