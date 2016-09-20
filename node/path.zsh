@@ -1,13 +1,7 @@
 #!/bin/zsh
-if [ "$(uname -s)" = "Darwin" ]; then
-  export PATH="$PATH:$HOME/.npm/bin"
 
-  export NVM_DIR="$HOME/.nvm"
-    . "$(brew --prefix nvm)/nvm.sh"
-else
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-fi
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Completion
 [[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
