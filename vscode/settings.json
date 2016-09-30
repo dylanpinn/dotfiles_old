@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Hack",
+  "editor.fontFamily": "Operator Mono, Hack",
   "editor.fontSize": 15,
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
