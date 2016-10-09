@@ -1,6 +1,7 @@
 {
   "editor.fontFamily": "Operator Mono, Hack",
-  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": true,
