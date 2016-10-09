@@ -45,7 +45,7 @@
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
   editor:
-    fontFamily: "Hack"
+    fontFamily: "Operator Mono"
     fontSize: 15
     invisibles: {}
     scrollPastEnd: true
@@ -107,6 +107,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1474359757
+    lastInit: 1475236161
   welcome:
     showOnStartup: false
