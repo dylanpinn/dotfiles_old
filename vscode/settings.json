@@ -3,7 +3,7 @@
   "editor.fontSize": 15,
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
-  "editor.renderWhitespace": true,
+  "editor.renderWhitespace": "boundary",
   "editor.rulers": [
     80,
     120
@@ -18,7 +18,9 @@
   "files.associations": {
     ".dockerignore": "gitignore",
     ".stylelintrc": "json",
-    "*.manifest": "json"
+    "*.manifest": "json",
+    ".jbuilder": "ruby",
+    "Capfile": "ruby"
   },
   "files.exclude": {
     "**/node_modules": true,
