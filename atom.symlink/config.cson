@@ -47,6 +47,7 @@
     telemetryConsent: "limited"
   editor:
     fontFamily: "Operator Mono"
+    fontSize: 15
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -107,6 +108,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1476682923
+    lastInit: 1474359757
   welcome:
     showOnStartup: false
