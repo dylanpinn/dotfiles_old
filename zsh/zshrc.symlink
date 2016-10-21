@@ -40,10 +40,6 @@ done
 
 unset config_files updated_at
 
-# use .localrc for SUPER SECRET CRAP that you don't
-# want in your public, versioned repo.
-[[ -a ~/.localrc ]] && source ~/.localrc
-
 # TODO: Move out of .zshrc
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -52,3 +48,8 @@ unset config_files updated_at
 
 # added by travis gem
 [ -f /Users/dylan/.travis/travis.sh ] && source /Users/dylan/.travis/travis.sh
+
+# use .localrc for SUPER SECRET CRAP that you don't
+# want in your public, versioned repo.
+# shellcheck disable=SC1090
+[ -f ~/.localrc ] && . ~/.localrc
