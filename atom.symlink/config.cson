@@ -33,6 +33,19 @@
       preserve_newlines: true
   core:
     autoHideMenuBar: true
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
       "metrics"
       "exception-reporting"
@@ -41,6 +54,9 @@
       "linter-phpcs"
       "linter-codeclimate"
       "react"
+      "linter-flow"
+      "tree-view"
+      "linter"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
@@ -62,6 +78,7 @@
     panelInitialVisible: false
   "go-plus":
     goPath: "~/dev/go"
+    panelDisplayMode: "closed"
   "go-rename": {}
   gofmt:
     formatTool: "goreturns"
@@ -85,6 +102,17 @@
     noConfigDisable: true
   "linter-scss-lint":
     disableWhenNoConfigFileInPath: true
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-code-format":
+      formatOnSave: true
+    "nuclide-flow":
+      canUseFlowBin: true
+    "nuclide-hg-repository":
+      enableDiffStats: true
+    "nuclide-home":
+      showHome: false
+    "nuclide-objc": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -108,6 +136,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1474359757
+    lastInit: 1477040625
   welcome:
     showOnStartup: false
