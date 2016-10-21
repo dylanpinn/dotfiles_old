@@ -7,6 +7,8 @@
 	changed = show --pretty=\"format:\" --name-only
 	fm = fetch-merge
 	pr = open-pr
+	please = push --force-with-lease
+	commend = commit --amend --no-edit
 [color]
 	diff = auto
 	status = auto
@@ -24,9 +26,15 @@
 [help]
 	autocorrect = 1
 [merge]
-  tool = meld
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = true
+	keepBackup = false
 [diff]
 	tool = diffmerge
+[difftool]
+	prompt = false
 [grep]
 	extendRegexp = true
 	lineNumber = true
@@ -34,3 +42,5 @@
 	default = simple
 [submodule]
 	fetchJobs = 4
+[log]
+	showSignature = false
