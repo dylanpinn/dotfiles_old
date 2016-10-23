@@ -57,6 +57,7 @@
       "linter-flow"
       "tree-view"
       "linter"
+      "whitespace"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
@@ -104,15 +105,35 @@
     disableWhenNoConfigFileInPath: true
   nuclide:
     installRecommendedPackages: true
+    "nuclide-adb-logcat": {}
+    "nuclide-arcanist": {}
+    "nuclide-blame-provider-hg": {}
+    "nuclide-buck": {}
+    "nuclide-clang": {}
     "nuclide-code-format":
       formatOnSave: true
+    "nuclide-console": {}
+    "nuclide-datatip": {}
+    "nuclide-debugger-native": {}
+    "nuclide-debugger-node": {}
+    "nuclide-debugger-php": {}
+    "nuclide-definition-preview": {}
     "nuclide-flow":
       canUseFlowBin: true
+    "nuclide-hack": {}
+    "nuclide-health": {}
     "nuclide-hg-repository":
       enableDiffStats: true
     "nuclide-home":
       showHome: false
-    "nuclide-objc": {}
+    "nuclide-ios-simulator-logs": {}
+    "nuclide-ocaml": {}
+    "nuclide-python": {}
+    "nuclide-react-native": {}
+    "nuclide-related-files": {}
+    "nuclide-remote-projects": {}
+    "nuclide-swift": {}
+    "nuclide-working-sets": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
