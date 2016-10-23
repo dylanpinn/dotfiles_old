@@ -54,6 +54,9 @@
       "linter-phpcs"
       "linter-codeclimate"
       "react"
+      "linter-flow"
+      "tree-view"
+      "linter"
     ]
     hideGitIgnoredFiles: true
     projectHome: "~/dev/"
@@ -75,6 +78,7 @@
     panelInitialVisible: false
   "go-plus":
     goPath: "~/dev/go"
+    panelDisplayMode: "closed"
   "go-rename": {}
   gofmt:
     formatTool: "goreturns"
@@ -100,27 +104,15 @@
     disableWhenNoConfigFileInPath: true
   nuclide:
     installRecommendedPackages: true
-    "nuclide-adb-logcat": {}
-    "nuclide-arcanist": {}
-    "nuclide-blame-provider-hg": {}
-    "nuclide-buck": {}
-    "nuclide-clang": {}
-    "nuclide-console": {}
-    "nuclide-datatip": {}
-    "nuclide-debugger-native": {}
-    "nuclide-debugger-node": {}
-    "nuclide-debugger-php": {}
-    "nuclide-definition-preview": {}
-    "nuclide-flow": {}
-    "nuclide-hack": {}
-    "nuclide-health": {}
-    "nuclide-ios-simulator-logs": {}
-    "nuclide-ocaml": {}
-    "nuclide-python": {}
-    "nuclide-react-native": {}
-    "nuclide-remote-projects": {}
-    "nuclide-swift": {}
-    "nuclide-working-sets": {}
+    "nuclide-code-format":
+      formatOnSave: true
+    "nuclide-flow":
+      canUseFlowBin: true
+    "nuclide-hg-repository":
+      enableDiffStats: true
+    "nuclide-home":
+      showHome: false
+    "nuclide-objc": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -144,6 +136,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1477030349
+    lastInit: 1477263064
   welcome:
     showOnStartup: false
