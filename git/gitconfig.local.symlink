@@ -1,3 +1,5 @@
+[difftool "diffmerge"]
+	cmd = diffmerge $LOCAL $REMOTE
 [alias]
 	co = checkout
 	count = shortlog -sn
