@@ -231,31 +231,31 @@ defaults write org.m0k.transmission BlocklistURL -string "http://john.bitsurge.n
 
 #############################
 
-# echo ""
-# echo "› Mail:"
-# echo "  › Add the keyboard shortcut CMD + Enter to send an email"
-# defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\U21a9"
+echo ""
+echo "› Mail:"
+echo "  › Add the keyboard shortcut CMD + Enter to send an email"
+defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" "@\U21a9"
 
-# echo "  › Disable smart quotes as it's annoying for messages that contain code"
-# defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
+echo "  › Disable smart quotes as it's annoying for messages that contain code"
+defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
 
-# echo "  › Set email addresses to copy as 'foo@example.com' instead of 'Foo Bar <foo@example.com>'"
-# defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+echo "  › Set email addresses to copy as 'foo@example.com' instead of 'Foo Bar <foo@example.com>'"
+defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
-# echo "  › Display emails in threaded mode, sorted by date (oldest at the top)"
-# defaults write com.apple.mail DraftsViewerAttributes -dict-add "DisplayInThreadedMode" -string "yes"
-# defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortedDescending" -string "yes"
-# defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortOrder" -string "received-date"
+echo "  › Display emails in threaded mode, sorted by date (oldest at the top)"
+defaults write com.apple.mail DraftsViewerAttributes -dict-add "DisplayInThreadedMode" -string "yes"
+defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortedDescending" -string "yes"
+defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortOrder" -string "received-date"
 
-# echo "  › Disable inline attachments (just show the icons)"
-# defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
+echo "  › Disable inline attachments (just show the icons)"
+defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
-# echo "  › Disable automatic spell checking"
-# defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
+echo "  › Disable automatic spell checking"
+defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
 
-# echo "  ›  Disable send and reply animations in Mail.app"
-# defaults write com.apple.mail DisableReplyAnimations -bool true
-# defaults write com.apple.mail DisableSendAnimations -bool true
+echo "  ›  Disable send and reply animations in Mail.app"
+defaults write com.apple.mail DisableReplyAnimations -bool true
+defaults write com.apple.mail DisableSendAnimations -bool true
 
 #############################
 
