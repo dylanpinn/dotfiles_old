@@ -10,4 +10,5 @@ djui/alias-tips
 mafredri/zsh-async
 Tarrasch/zsh-bd
 wbinglee/zsh-wakatime
+zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
