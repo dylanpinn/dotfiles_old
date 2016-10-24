@@ -15,3 +15,6 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# Yarn PKG Manager
+export PATH="$PATH:$HOME/.yarn/bin
