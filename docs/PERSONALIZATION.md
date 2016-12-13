@@ -16,7 +16,6 @@ dotfiles managed one.
 
 You can edit the `~/.psqlrc.local` file.
 
-=======
 ## For ssh
 
 You can edit the `~/.ssh/config.local` file.
