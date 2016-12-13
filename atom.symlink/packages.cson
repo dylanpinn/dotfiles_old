@@ -28,6 +28,7 @@ packages: [
   "language-diff"
   "language-docker"
   "language-gitignore"
+  "language-graphql"
   "language-groovy"
   "language-haml"
   "language-ini"

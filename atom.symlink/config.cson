@@ -64,7 +64,6 @@
     telemetryConsent: "limited"
   editor:
     fontFamily: "Operator Mono"
-    fontSize: 15
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
