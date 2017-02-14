@@ -1,20 +1,9 @@
-coffeehive:
-  title: "Coffee Hive"
-  paths: [
-    "/home/dylan/dev/magento/coffeehivedos"
-  ]
-logichealth:
-  title: "Logic Health"
-  paths: [
-    "/home/dylan/dev/rails/logic-health"
-  ]
-ablethorpe:
-  title: "Ablethorpe"
-  paths: [
-    "/home/dylan/dev/wordpress/ablethorpe2015"
-  ]
-pixel:
-  title: "Pixel"
-  paths: [
-    "/home/dylan/dev/node/Pixel"
-  ]
+[
+  {
+    title: "28bysamwood"
+    group: "WordPress"
+    paths: [
+      "~/dev/wordpress/28bysamwood"
+    ]
+  }
+]

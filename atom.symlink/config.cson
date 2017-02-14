@@ -1,164 +1,41 @@
 "*":
-  "atom-beautify":
-    cs:
-      beautify_on_save: true
-    css:
-      convert_quotes: "single"
-      newline_between_rules: true
-      no_lead_zero: true
-      preserve_newlines: true
-      selector_separator_newline: true
-    erb:
-      default_beautifier: "HTML Beautifier"
-      indent_size: 2
-    general:
-      _analyticsUserId: "99afad7b-7444-488b-a2b6-f6aa0f2f05e0"
-    html:
-      end_with_newline: true
-    js:
-      end_with_newline: true
-      indent_size: 2
-      space_after_anon_function: true
-    json:
-      end_with_newline: true
-      indent_size: 2
-    php: {}
-    ruby:
-      indent_size: 2
-    scss:
-      convert_quotes: "single"
-      indent_size: 2
-      newline_between_rules: true
-      no_lead_zero: true
-      preserve_newlines: true
   core:
     autoHideMenuBar: true
-    customFileTypes:
-      "source.ini": [
-        ".buckconfig"
-        ".hgrc"
-        ".flowconfig"
-      ]
-      "source.json": [
-        ".arcconfig"
-        "BUCK.autodeps"
-      ]
-      "source.python": [
-        "BUCK"
-      ]
     disabledPackages: [
-      "metrics"
-      "exception-reporting"
-      "linter-phpmd"
-      "linter-htmlhint"
-      "linter-phpcs"
-      "linter-codeclimate"
-      "react"
-      "linter-flow"
-      "tree-view"
-      "linter"
       "whitespace"
+      "linter-phpmd"
     ]
-    hideGitIgnoredFiles: true
     projectHome: "~/dev/"
     telemetryConsent: "limited"
+  docblockr:
+    lower_case_primitives: true
+    short_primitives: true
   editor:
-    fontFamily: "Operator Mono"
-    fontSize: 15
-    invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
-    softWrap: true
-  emmet: {}
-  "file-icons":
-    coloured: false
-    tabPaneIcon: false
-  "go-debug":
-    limitCommandsToGo: true
-    panelInitialVisible: false
-  "go-plus":
-    goPath: "~/dev/go"
-    panelDisplayMode: "closed"
-  "go-rename": {}
-  gofmt:
-    formatTool: "goreturns"
-  "language-babel": {}
-  linter: {}
-  "linter-codeclimate":
-    init: false
+  "file-icons": {}
+  linter:
+    errorPanelHeight: 75
   "linter-eslint":
     fixOnSave: true
-    lintHtmlFiles: true
-  "linter-jscs":
-    fixOnSave: true
-    onlyConfig: true
-  "linter-jshint":
-    disableWhenNoJshintrcFileInPath: true
-    lintInlineJavaScript: true
-  "linter-phpmd":
-    projectRules: true
-  "linter-rubocop": {}
-  "linter-sass-lint":
-    noConfigDisable: true
-  "linter-scss-lint":
-    disableWhenNoConfigFileInPath: true
-  nuclide:
-    installRecommendedPackages: true
-    "nuclide-adb-logcat": {}
-    "nuclide-arcanist": {}
-    "nuclide-blame-provider-hg": {}
-    "nuclide-buck": {}
-    "nuclide-clang": {}
-    "nuclide-code-format":
-      formatOnSave: true
-    "nuclide-console": {}
-    "nuclide-datatip": {}
-    "nuclide-debugger-native": {}
-    "nuclide-debugger-node": {}
-    "nuclide-debugger-php": {}
-    "nuclide-definition-preview": {}
-    "nuclide-flow":
-      canUseFlowBin: true
-    "nuclide-hack": {}
-    "nuclide-health": {}
-    "nuclide-hg-repository":
-      enableDiffStats: true
-    "nuclide-home":
-      showHome: false
-    "nuclide-ios-simulator-logs": {}
-    "nuclide-ocaml": {}
-    "nuclide-python": {}
-    "nuclide-react-native": {}
-    "nuclide-related-files": {}
-    "nuclide-remote-projects": {}
-    "nuclide-swift": {}
-    "nuclide-working-sets": {}
+  "linter-phpcs":
+    disableWhenNoConfigFile: true
+  "linter-stylelint":
+    showIgnored: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true
   "project-manager":
     environmentSpecificProjects: true
-  "ruby-test":
-    testFramework: "minitest"
-  stylefmt:
-    formatOnSave: true
-  "todo-show":
-    ignoreThesePaths: [
-      "**/node_modules/"
-      "**/vendor/"
-      "**/bower_components/"
-      "**/public/"
-      "flow-typed/**"
-    ]
-    statusBarIndicator: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
-  "unity-ui":
-    showIcons: true
+    savePathsRelativeToHome: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1477263064
+    lastInit: 1487038988
   welcome:
     showOnStartup: false
+  whitespace: {}
+".editorconfig.source":
+  editor:
+    scrollPastEnd: false
