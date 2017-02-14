@@ -24,3 +24,5 @@ pip() {
   __pyenv_init
   command pip "$@"
 }
+
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi

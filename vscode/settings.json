@@ -9,13 +9,14 @@
     80,
     120
   ],
+  "editor.tabCompletion": true,
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
-  "editor.tabCompletion": true,
   "editor.wrappingColumn": 80,
   "editor.wrappingIndent": "indent",
-  "explorer.openEditors.visible": 0,
   "eslint.enable": false,
+  "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": true,
   "files.associations": {
     ".dockerignore": "gitignore",
     ".stylelintrc": "json",
@@ -23,15 +24,16 @@
     ".jbuilder": "ruby",
     "Capfile": "ruby"
   },
+  "files.autoSave": "onFocusChange",
   "files.exclude": {
     "**/node_modules": true,
     "**/.idea": true,
     "**/.sass-cache": true
   },
+  "flow.enabled": false,
   "jscs.enable": false,
   "jshint.enable": false,
   "terminal.external.osxExec": "iTerm.app",
-  "vsicons.useFileAssociations": true,
-  "files.autoSave": "onFocusChange",
-  "extensions.autoUpdate": true
+  "tslint.enable": false,
+  "vsicons.useFileAssociations": true
 }
