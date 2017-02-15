@@ -21,6 +21,8 @@
     fixOnSave: true
   "linter-phpcs":
     disableWhenNoConfigFile: true
+  "linter-rubocop":
+    disableWhenNoConfigFile: true
   "linter-stylelint":
     showIgnored: true
   "package-sync":
@@ -32,7 +34,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1487038988
+    lastInit: 1487133967
   welcome:
     showOnStartup: false
   whitespace: {}
