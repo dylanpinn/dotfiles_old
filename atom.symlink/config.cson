@@ -14,12 +14,16 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+  "exception-reporting":
+    userId: "4a65be8f-c79a-4d47-8460-0328d6b0fddf"
   "file-icons": {}
   linter:
     errorPanelHeight: 75
   "linter-eslint":
     fixOnSave: true
   "linter-phpcs":
+    disableWhenNoConfigFile: true
+  "linter-rubocop":
     disableWhenNoConfigFile: true
   "linter-stylelint":
     showIgnored: true
@@ -32,7 +36,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1487038988
+    lastInit: 1487155374
   welcome:
     showOnStartup: false
   whitespace: {}

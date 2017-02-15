@@ -11,6 +11,7 @@ packages: [
   "linter-php"
   "linter-phpcs"
   "linter-phpmd"
+  "linter-rubocop"
   "linter-stylelint"
   "minimap"
   "package-sync"
