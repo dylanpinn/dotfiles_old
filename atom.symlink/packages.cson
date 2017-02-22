@@ -6,6 +6,8 @@ packages: [
   "file-icons"
   "language-babel"
   "language-docker"
+  "language-htaccess"
+  "language-ignore"
   "linter"
   "linter-eslint"
   "linter-js-yaml"
