@@ -1,39 +1,9 @@
 {
-  "editor.fontFamily": "Operator Mono, Hack",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.renderControlCharacters": true,
-  "editor.renderIndentGuides": true,
-  "editor.renderWhitespace": "boundary",
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.tabCompletion": true,
-  "editor.tabSize": 2,
-  "editor.trimAutoWhitespace": true,
-  "editor.wrappingColumn": 80,
-  "editor.wrappingIndent": "indent",
-  "eslint.enable": false,
-  "explorer.openEditors.visible": 0,
-  "extensions.autoUpdate": true,
-  "files.associations": {
-    ".dockerignore": "gitignore",
-    ".stylelintrc": "json",
-    "*.manifest": "json",
-    ".jbuilder": "ruby",
-    "Capfile": "ruby"
-  },
-  "files.autoSave": "onFocusChange",
-  "files.exclude": {
-    "**/node_modules": true,
-    "**/.idea": true,
-    "**/.sass-cache": true
-  },
-  "flow.enabled": false,
-  "jscs.enable": false,
-  "jshint.enable": false,
-  "terminal.external.osxExec": "iTerm.app",
-  "tslint.enable": false,
-  "vsicons.useFileAssociations": true
+    "files.associations": {
+        ".stylelintrc": "json",
+        ".stylelintignore": "gitignore",
+        ".eslintignore": "gitignore",
+        ".csslintrc": "json"
+    },
+    "workbench.welcome.enabled": false
 }
