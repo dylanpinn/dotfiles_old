@@ -1,9 +1,22 @@
 {
-    "files.associations": {
-        ".stylelintrc": "json",
-        ".stylelintignore": "gitignore",
-        ".eslintignore": "gitignore",
-        ".csslintrc": "json"
-    },
-    "workbench.welcome.enabled": false
+  "editor.renderWhitespace": "boundary",
+  "files.associations": {
+      ".stylelintrc": "json",
+      ".stylelintignore": "gitignore",
+      ".eslintignore": "gitignore",
+      ".csslintrc": "json",
+      "*.reek": "yaml",
+      "Vagrantfile": "ruby",
+      "**/defautls/**/*": "ansible",
+      "**/tasks/**/*.yml" : "ansible",
+      "**/handler/*.yml" : "ansible",
+      "**/*_vars/**/*.yml" : "ansible",
+      "**/roles/**/*.yml" : "ansible",
+      "**/playbooks/**/*.yml" : "ansible",
+      "**/*ansible*/**/*.yml" : "ansible",
+      "**/vars/**/*.yml": "ansible",
+      "**/inventory/*/*": "ansible"
+  },
+  "workbench.welcome.enabled": false,
+"window.zoomLevel": 0
 }
